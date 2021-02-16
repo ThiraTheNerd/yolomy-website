@@ -1,0 +1,68 @@
+/* top navigation */
+.logo{
+  width: 180px;
+  margin-left: 2rem;
+}
+#main-nav{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  padding: 1rem 0;
+
+  /* puts all the contents in one line */
+  display: grid;   
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+}
+.menu{
+  justify-self: end;
+
+}
+.menu ul{
+  display: flex;
+  list-style: none;
+}
+.menu ul li{
+  margin-left: 2rem;
+
+}
+.menu ul li a{
+  padding: 0.75rem;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+/* Home section */
+#home{
+  background-image: url("../assets/backgrounds/hero.jpg");
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+}
+
+#showcase{
+  height: 70vh;
+  display: grid;
+  grid-template-rows: repeat(3,1);
+  color: white;
+  margin-top: 12rem;
+}
+#showcase .heading{
+  align-self: flex-end;
+  justify-self: center;
+  font-size: 5rem;
+}
+#showcase .slogan{
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  font-size: 1.75rem;
+}
+#showcase a{
+  align-self: end;
+  justify-self: center;
+  cursor: pointer;
+}
