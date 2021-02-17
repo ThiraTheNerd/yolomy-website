@@ -75,5 +75,15 @@ a{
 }
 .container-fluid{
   background-color: #C6BFA5;
-  align-self: flex-end;
+}
+.form-group{
+  padding-top: 20px;
+  height: 60px;
+}
+#card{
+  width: 30%;
+  
+}
+.row{
+  background-color: black;
 }
