@@ -1,5 +1,11 @@
 /* top navigation */
-.logo{
+
+#home{
+  background-image: url("../assets/backgrounds/hero.jpg");
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+}.logo{
   width: 180px;
   margin-left: 2rem;
 }
@@ -13,8 +19,12 @@
   display: grid;   
   grid-template-columns: 1fr 1fr;
   align-items: center;
-
 }
+
+#main-nav.pink{
+  background: #C6BFA5;
+}
+
 .menu{
   justify-self: end;
 
@@ -36,12 +46,6 @@ a{
 }
 
 /* Home section */
-#home{
-  background-image: url("../assets/backgrounds/hero.jpg");
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr 5fr;
-}
 
 #showcase{
   height: 70vh;
@@ -65,4 +69,11 @@ a{
   align-self: end;
   justify-self: center;
   cursor: pointer;
+}
+.row{
+  padding: 20px;
+}
+.container-fluid{
+  background-color: #C6BFA5;
+  align-self: flex-end;
 }
